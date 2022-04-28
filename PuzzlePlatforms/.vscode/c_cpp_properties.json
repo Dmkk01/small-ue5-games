@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "PuzzlePlatformsEditor Editor Win64 Development (PuzzlePlatforms)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\.vscode\\compileCommands_PuzzlePlatforms.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c17",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "PuzzlePlatforms Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Test",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Test",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Test",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Test",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Test",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Test",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatforms IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatforms IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatforms",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatformsEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatformsEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"PuzzlePlatformsEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "PuzzlePlatformsEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"PuzzlePlatformsEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\User\\Documents\\GitHub\\small-ue5-games\\PuzzlePlatforms\\PuzzlePlatforms.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}
